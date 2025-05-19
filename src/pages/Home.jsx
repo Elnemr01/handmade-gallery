@@ -37,9 +37,9 @@ const Home = () => {
       {/* Hero Section */}
       <section className="py-20 bg-gradient-to-br from-gray-800 to-rose-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col md:flex-row items-center gap-10">
+          <div className="flex flex-col md:flex-row items-center">
             {/* Right side - Image */}
-            <div className="md:w-1/2 animate-fade-in-up delay-200">
+            <div className="md:w-1/2 animate-fade-in-up">
               <img
                 src={assets.home_img}
                 alt="Handmade Gallery"
@@ -47,7 +47,7 @@ const Home = () => {
               />
             </div>
             {/* Left side - Text */}
-            <div className="md:w-1/2 mb-10 md:mb-0 order-last md:order-first animate-fade-in-up">
+            <div className="md:w-1/2 mb-10 md:mb-0 order-last md:order-first animate-fade-in-up delay-200 md:pr-8">
               <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
                 Handmade Nahlla Gallery
               </h1>

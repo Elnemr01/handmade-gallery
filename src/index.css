@@ -48,15 +48,15 @@
 }
 
 .delay-100 {
-  animation-delay: 200ms;
+  animation-delay: 100ms;
 }
 
 .delay-200 {
-  animation-delay: 400ms;
+  animation-delay: 200ms;
 }
 
 .delay-300 {
-  animation-delay: 600ms;
+  animation-delay: 300ms;
 }
 
 /* Add smooth scrolling to the whole page */
