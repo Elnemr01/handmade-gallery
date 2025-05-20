@@ -7,29 +7,29 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* About Section */}
           <div>
-            <h3 className="text-xl font-bold mb-4">Nahlla Gallery</h3>
+            <h3 className="text-xl font-bold mb-4">معرض نهلة</h3>
             <p className="text-gray-400">
-              Handmade pieces crafted with love and passion. Discover unique items that combine traditional craftsmanship with modern design.
+              قطع يدوية مصنوعة بحب وشغف. اكتشف قطعاً فريدة تجمع بين الحرفية التقليدية والتصميم العصري.
             </p>
           </div>
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-xl font-bold mb-4">Quick Links</h3>
+            <h3 className="text-xl font-bold mb-4">روابط سريعة</h3>
             <ul className="space-y-2">
               <li>
                 <Link to="/" className="text-gray-400 hover:text-white transition duration-300">
-                  Home
+                  الرئيسية
                 </Link>
               </li>
               <li>
                 <Link to="/products" className="text-gray-400 hover:text-white transition duration-300">
-                  Products
+                  المنتجات
                 </Link>
               </li>
               <li>
                 <Link to="/about" className="text-gray-400 hover:text-white transition duration-300">
-                  About
+                  عن المعرض
                 </Link>
               </li>
             </ul>
@@ -37,7 +37,7 @@ const Footer = () => {
 
           {/* Contact & Social */}
           <div>
-            <h3 className="text-xl font-bold mb-4">Connect With Us</h3>
+            <h3 className="text-xl font-bold mb-4">تواصل معنا</h3>
             <div className="space-y-2">
               <a
                 href="https://www.instagram.com/nahla_ashraf_gallery?igsh=NjBudDFha2d0anZw"
@@ -45,7 +45,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition duration-300 block"
               >
-                Instagram
+                انستغرام
               </a>
               <a
                 href="https://www.facebook.com/share/g/1YgFHzd1L3/?mibextid=wwXIfr"
@@ -53,7 +53,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition duration-300 block"
               >
-                Facebook
+                فيسبوك
               </a>
             </div>
           </div>
@@ -61,7 +61,7 @@ const Footer = () => {
 
         {/* Copyright */}
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; {new Date().getFullYear()} Nahlla Gallery. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} معرض نهلة. جميع الحقوق محفوظة.</p>
         </div>
       </div>
     </footer>

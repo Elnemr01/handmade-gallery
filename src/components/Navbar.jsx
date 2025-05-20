@@ -11,7 +11,7 @@ const Navbar = () => {
           <div className="flex items-center">
             <Link to="/" className="flex-shrink-0 flex items-center">
               <h1 className="text-2xl font-playfair font-semibold italic bg-gradient-to-r from-pink-400 via-purple-400 to-indigo-400 bg-clip-text text-transparent hover:from-pink-300 hover:via-purple-300 hover:to-indigo-300 transition-all duration-300">
-                Nahlla Gallery
+                معرض نهلة
               </h1>
             </Link>
           </div>
@@ -22,19 +22,19 @@ const Navbar = () => {
               to="/" 
               className="relative text-gray-300 hover:text-pink-400 px-2 py-2 rounded-md text-sm font-medium transition-colors duration-300 after:content-[''] after:absolute after:w-full after:h-0.5 after:bg-pink-400 after:left-0 after:-bottom-0.5 after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300"
             >
-              Home
+              الرئيسية
             </Link>
             <Link 
               to="/products" 
               className="relative text-gray-300 hover:text-pink-400 px-2 py-2 rounded-md text-sm font-medium transition-colors duration-300 after:content-[''] after:absolute after:w-full after:h-0.5 after:bg-pink-400 after:left-0 after:-bottom-0.5 after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300"
             >
-              Products
+              المنتجات
             </Link>
             <Link 
               to="/about" 
               className="relative text-gray-300 hover:text-pink-400 px-2 py-2 rounded-md text-sm font-medium transition-colors duration-300 after:content-[''] after:absolute after:w-full after:h-0.5 after:bg-pink-400 after:left-0 after:-bottom-0.5 after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300"
             >
-              About
+              عن المعرض
             </Link>
           </div>
 
@@ -44,7 +44,7 @@ const Navbar = () => {
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className="inline-flex items-center justify-center p-2 rounded-md text-gray-300 hover:text-pink-400 hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-pink-500 transition-colors duration-300"
             >
-              <span className="sr-only">Open main menu</span>
+              <span className="sr-only">فتح القائمة الرئيسية</span>
               {/* Hamburger icon */}
               <svg
                 className={`${isMenuOpen ? 'hidden' : 'block'} h-6 w-6`}
@@ -78,21 +78,21 @@ const Navbar = () => {
             className="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-pink-400 hover:bg-gray-700 transition-colors duration-300"
             onClick={() => setIsMenuOpen(false)}
           >
-            Home
+            الرئيسية
           </Link>
           <Link
             to="/products"
             className="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-pink-400 hover:bg-gray-700 transition-colors duration-300"
             onClick={() => setIsMenuOpen(false)}
           >
-            Products
+            المنتجات
           </Link>
           <Link
             to="/about"
             className="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-pink-400 hover:bg-gray-700 transition-colors duration-300"
             onClick={() => setIsMenuOpen(false)}
           >
-            About
+            عن المعرض
           </Link>
         </div>
       </div>
