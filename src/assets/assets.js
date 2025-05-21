@@ -11,6 +11,10 @@ import pro9 from './pro9.jpeg'
 import pro10 from './pro10.jpeg'
 import pro11 from './pro11.jpeg'
 import pro12 from './pro12.jpeg'
+import pro13 from './pro13.jpeg'
+import pro14 from './pro14.jpeg'
+import pro15 from './pro15.jpeg'
+import pro16 from './pro16.jpeg'
 
 
 // Import home and logo images
@@ -28,74 +32,146 @@ export const assets = {
 export const products = [
     {
         id: 1,
-        name: "Handmade Ceramic Vase",
+        name: "شنطه كانفا مع سلسله خيط",
+        subtitle: "يد سلسله مجدوله",
         image: pro1,
-        price: 299
+        price: 250,
+        color: "بيج",
+        size: "وسط"
     },
     {
         id: 2,
-        name: "Decorative Wall Art",
+        name: " شنطه خزر مع سلسله يد",
+        subtitle: "كريستال بلاستيك شفاف يعطى لمعه",
         image: pro2,
-        price: 199
+        price: 400,
+        color: "وردى فاتح يميل للخوخى",
+        size: "كبير"
     },
     {
         id: 3,
-        name: "Handcrafted Jewelry Box",
+        name: "محفظه",
+        subtitle: "محفظه خرز ccb ",
         image: pro3,
-        price: 249
+        price: 100,
+        color: "سيلفر",
+        size: "كبير"
     },
     {
         id: 4,
-        name: "Wooden Decorative Bowl",
+        name: "شنطه فون مع سلسله يد",
+        subtitle: "شنطه خرز كريستال مع يد سلسله مجدوله",
         image: pro4,
-        price: 179
+        price: 250,
+        color: "أحمر",
+        size: "وسط"
     },
     {
         id: 5,
-        name: "Handmade Candle Holder",
+        name: "شنطه خرز مع يد خرز عريض ",
+        subtitle: "خرز مكس لولى ملضم ",
         image: pro5,
-        price: 159
+        price: 400,
+        color: "مكس أبيض",
+        size: "كبير"
     },
     {
         id: 6,
-        name: "Artistic Wall Clock",
+        name: "شنطه مع يد خرز حلقات ",
+        subtitle: "شنطه خرز لولى مط أسود",
         image: pro6,
-        price: 229
+        price: 250,
+        color: "أسود",
+        size: "وسط"
     },
     {
         id: 7,
-        name: "Decorative Mirror",
+        name: "شنطه خرز مرمر أبيش شفاف",
+        subtitle: "مع يد سلسله مجدوله",
         image: pro7,
-        price: 349
+        price: 400,
+        color: "أبيض شفاف",
+        size: "كبير"
     },
     {
         id: 8,
-        name: "Handmade Pottery",
+        name: "شنطه خرز مرمر أسود مشبح",
+        subtitle: " (أضافه اليد حسب الطلب) يد خرز عريض",
         image: pro8,
-        price: 199
+        price: 380,
+        color: "اسود مشبح",
+        size: "كبير"
     },
     {
         id: 9,
-        name: "Wooden Shelf",
+        name: "شنطه خرز مكس فتافيت مدور",
+        subtitle: "خرز مكس فتافيت لولى مع بطانه حسب الطلب",
         image: pro9,
-        price: 279
+        price: 350,
+        color: "أوف وايت",
+        size: "صغير"
     },
     {
         id: 10,
-        name: "Ceramic Mug Set",
+        name: "شنطه خرز مع يد خرز عريض",
+        subtitle: "كريستال أسود مدور مكس قطيفه مط أسود",
         image: pro10,
-        price: 149
+        price: 450,
+        color: "أسود مدور",
+        size: "كبير"
     },
     {
         id: 11,
-        name: "Decorative Pillows",
+        name: "شنطه خرز للفون ",
+        subtitle: "شنطه مع سلسله يد مجدوله",
         image: pro11,
-        price: 129
+        price: 280,
+        color: "سيلفر",
+        size: "وسط"
     },
     {
         id: 12,
-        name: "Wall Hanging",
+        name: "شنطه خرز مع يد",
+        subtitle: "شنطه مكس فتافيت لولى مع يد خرز عريض",
         image: pro12,
-        price: 189
+        price: 480,
+        color: "اوف وايت",
+        size: "كبير"
+    },
+    {
+        id: 13,
+        name: "شنط خرز مع يد",
+        subtitle: "شنط خرز لولي أبيض ملضم يد خرز",
+        image: pro13,
+        price: 350,
+        color: "أبيض ملضم",
+        size: "كبير"
+    },
+    {
+        id: 14,
+        name: " شنط خرز مع يد خرز وسلسله",
+        subtitle: "شنط خرز كريستال مع يد سلسله و خرز",
+        image: pro14,
+        price: 300,
+        color: "رصاصى فاتح لامع",
+        size: "كبير"
+    },
+    {
+        id: 15,
+        name: "شنطه خرز لولى",
+        subtitle: "شنط خرز لولي أسود مط ",
+        image: pro15,
+        price: 180,
+        color: "أسود مط",
+        size: "صغير"
+    },
+    {
+        id: 16,
+        name: "شنطه خرز لولى مع يد لولى",
+        subtitle: "شنط خرز لولي اوف وايت  مع يد لولى",
+        image: pro16,
+        price: 250,
+        color: "أوف وايت",
+        size: "وسط"
     }
 ];

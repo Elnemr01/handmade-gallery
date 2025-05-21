@@ -41,8 +41,17 @@ const Products = () => {
             >
               <img src={product.image} alt={product.name} className="w-full h-64 object-cover" />
               <div className="p-4">
-                <h3 className="text-lg font-semibold mb-2 text-white">{product.name}</h3>
-                <p className="text-gray-300">{product.price} ريال</p>
+                <h3 className="text-lg font-semibold mb-1 text-white">{product.name}</h3>
+                <p className="text-sm text-gray-400 mb-2">{product.subtitle}</p>
+                <div className="flex flex-wrap gap-2 mb-2">
+                  <span className="px-2 py-1 bg-gray-700 rounded-full text-xs text-gray-300">
+                    اللون: {product.color}
+                  </span>
+                  <span className="px-2 py-1 bg-gray-700 rounded-full text-xs text-gray-300">
+                    الحجم: {product.size}
+                  </span>
+                </div>
+                <p className="text-gray-300 font-semibold">{product.price.toString().replace(/\d/g, d => '٠١٢٣٤٥٦٧٨٩'[d])} جنيه</p>
               </div>
             </div>
           ))}
